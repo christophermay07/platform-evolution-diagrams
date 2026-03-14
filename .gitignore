@@ -1,0 +1,77 @@
+# =============================================================================
+# chmay's Exhaustive [Excessive] .gitignore Template
+# 
+# "This repo only builds <X>!"
+#   - some person who's never had to use `git filter-repo`
+# 
+# I do not trust tools.
+# I do not trust myself at 3am.
+# But I do trust .gitignore!
+# =============================================================================
+
+## ==============================
+## Build and Test Artifacts
+## ==============================
+*.log
+target/
+build/
+dist/
+
+## ==============================
+## IDE / Editor Files
+## ==============================
+
+# VS Code / VSCodium
+.vscode/
+*.code-workspace
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# Eclipse / JBoss Developer Studio
+.classpath
+.project
+.settings/
+.metadata/
+RemoteSystemsTempFiles/
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+nbactions.xml
+
+# Vim
+*~
+.*.sw? # if you make it past `p`, though, I'm impressed!
+
+## ==============================
+## OS / Misc Junk
+## ==============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## ==============================
+## Archives / Binary Outputs
+## ==============================
+*.tar  # if you actually add the .gz/bz2/xz, you own that lifestyle choice
+*.tgz
+*.zip
+*.rar  # on trial day 10,997 of 40
+
+## ==============================
+## Generated Documents
+## ==============================
+*.pdf
+
+## ==============================
+## Temporary / Scratch Files
+## ==============================
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
