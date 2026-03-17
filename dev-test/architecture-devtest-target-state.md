@@ -1,10 +1,10 @@
 ```mermaid 
-graph LR
+graph TB
     %% =====================
     %% Dev Workflow
     %% =====================
     subgraph Dev["💻 Dev"]
-        direction TB
+        direction LR
 
         %% Node: Teams %%
         %% These are the starting points for the workflow -- represents the teams doing the work
@@ -88,7 +88,7 @@ graph LR
     %% Test Workflow
     %% =====================
     subgraph Test["🧪 Test"]
-        direction TB
+        direction LR
 
         %% Node: Test Media %%
         %% This represents the media that was created at the end of the dev process, and delivered as disconnected media
